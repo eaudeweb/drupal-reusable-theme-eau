@@ -1,0 +1,7 @@
+@import "../../../node_modules/bootstrap/scss/reboot";
+
+p {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

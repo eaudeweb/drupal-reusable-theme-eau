@@ -1,0 +1,23 @@
+@mixin min-height() {
+  min-height:100vh;
+
+  .toolbar-fixed:not(.toolbar-tray-open) & {
+    min-height:calc(100vh - 39px);
+  }
+
+  .toolbar-fixed.toolbar-horizontal.toolbar-tray-open & {
+    min-height:calc(100vh - 79px);
+  }
+}
+
+@mixin alignTop() {
+  top: 0;
+
+  .toolbar-fixed:not(.toolbar-tray-open) & {
+    top: 39px;
+  }
+
+  .toolbar-fixed.toolbar-horizontal.toolbar-tray-open & {
+    top: 79px;
+  }
+}

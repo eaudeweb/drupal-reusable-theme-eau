@@ -1,0 +1,44 @@
+# Theme Setting Global
+sg__container: container
+sg__status_message__type: toast
+
+# Theme Setting
+# ns__navbar_type:     default
+ns__navbar_position: 0
+ns__navbar_expand:   navbar-expand-md
+ns__navbar_align:    my-auto
+ns__navbar_bg:       0
+ns__navbar_color:    navbar-light
+ns__navbar_out:      shadow
+
+fs__form_input_group: 'search_block_form'
+
+# Setting (theme) Fonts
+sf__sans_serif: 'system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", sans-serif'
+sf__family: 'var(--font-sans-serif)'
+
+# Setting (theme) Colors
+sc__white: '#ffffff'
+sc__black: '#000000'
+sc__gray_100: '#f3f3f3'
+sc__gray_200: '#e9ecef'
+sc__gray_300: '#dee2e6'
+sc__gray_400: '#ccc'
+sc__gray_500: '#adb5bd'
+sc__gray_600: '#6c757d'
+sc__gray_700: '#333'
+sc__gray_800: '#151515'
+sc__gray_900: '#212529'
+sc__primary: '#007bff'
+sc__secondary: '#dee2e6'
+sc__info: '#28a745'
+sc__danger: '#ffc107'
+sc__light: '#f3f3f3'
+sc__dark: '#212529'
+
+# Setting (theme) Link
+sl__custom: 0
+sl__color: '#007bff'
+sl__h_color: '#007bff'
+sl__decoration: none
+sl__h_decoration: underline

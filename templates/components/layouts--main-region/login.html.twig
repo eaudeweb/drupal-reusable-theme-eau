@@ -1,0 +1,40 @@
+{% set main_container = create_attribute() %}
+{%
+  set main_container_classes = [
+    'row',
+    'g-0',
+    'min-height',
+  ]
+%}
+
+{% set main_content = create_attribute() %}
+{%
+  set main_content_classes = [
+    'col-md-4',
+    'p-5',
+    'd-flex',
+    'flex-column',
+    'justify-content-center',
+    'align-items-center',
+  ]
+%}
+
+<div class="container-fluid p-0">
+  <div{{ main_container.addclass(main_container_classes) }}>
+    {% if page.sidebar_first %}
+      <div class="col-md-8">
+        <div class="img-fit">
+          <img src="https://images.pexels.com/photos/5478144/pexels-photo-5478144.jpeg">
+        </div>
+      </div>
+    {% endif %}
+
+    <div{{ main_content.addclass(main_content_classes) }}>
+      <div class="mb-5">
+        {{ page.branding }}
+      </div>
+
+      {{ page.content }}
+    </div>
+  </div>
+</div>

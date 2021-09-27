@@ -1,0 +1,38 @@
+name: Eau de Web
+type: theme
+description: 'Theme with Bootstrap 5 css library'
+core_version_requirement: ^8.9 || ^9.0
+base theme: false
+
+libraries:
+  - eau/theme-fonts
+  - eau/global-styling
+  - eau/js-latest
+
+stylesheets-remove:
+  - '@classy/css/components/tabs.css'
+
+regions:
+  branding: 'Branding'
+  nav_main: 'Main navigation region'
+  header: Header
+  nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  hero: 'Hero (full width)'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer
+  disable_region: 'Disabled Region'
+
+version: '1.0.0'
+
+# libraries-override:
+#   toolbar/toolbar:
+#     css:
+#       component:
+#         css/toolbar.module.css: false
+#       theme:
+#         css/toolbar.theme.css: false
+#         css/toolbar.icons.theme.css: false

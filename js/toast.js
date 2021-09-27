@@ -1,0 +1,1 @@
+var option={animation:!0};window.addEventListener("load",o=>{for(var t=[].slice.call(document.querySelectorAll(".toast")).map(function(o){return new bootstrap.Toast(o,option)}),n=0;n<t.length;n++)t[n].show()});

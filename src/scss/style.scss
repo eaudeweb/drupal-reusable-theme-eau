@@ -1,0 +1,39 @@
+/*
+ * Theme style
+ */
+
+@import "import";
+
+//Bootstrap
+@import "bootstrap/main";
+
+// Base style.
+@import "theme/main";
+
+.btn-outline-secondary {
+  color: #789acd;
+  background-color: #043b04;
+
+  border-color: #043b04;
+
+  &:hover {
+    color: #043b04;
+    background-color: #789acd;
+    border-color: #789acd;
+  }
+
+  .btn-check:focus + &,
+  &:focus {
+  }
+
+  .btn-check:checked + &,
+  .btn-check:active + &,
+  &:active,
+  &.active,
+  .show > &.dropdown-toggle {
+  }
+
+  &:disabled,
+  &.disabled {
+  }
+}

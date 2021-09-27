@@ -1,0 +1,42 @@
+{
+  "name": "EaudeWeb",
+  "version": "1.0.0",
+  "description": "Drupal 9 and bootstrap 5 + gulp.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joSecret/eau"
+  },
+  "browserslist": [
+    "> 1%",
+    "ie >= 10",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4",
+    "bb >= 10"
+  ],
+  "author": "JoSecret",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.5",
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.0",
+    "gulp-css-purge": "^3.0.9",
+    "gulp-minify": "^3.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-strip-comments": "^2.5.2"
+  },
+  "dependencies": {
+    "bootstrap": "5.1.1"
+  }
+}

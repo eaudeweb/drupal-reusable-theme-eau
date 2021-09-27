@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Eau de Web theme.
+
+eau.settings:
+  type: theme_settings
+  label: 'Eau de Web settings'

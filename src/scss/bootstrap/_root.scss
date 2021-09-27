@@ -1,0 +1,40 @@
+:root {
+  // Colors
+  // @each $color, $value in $colors {
+  //   --#{$variable-prefix}#{$color}: #{$value};
+  // }
+
+  // @each $color, $value in $grays {
+  //   --#{$variable-prefix}gray-#{$color}: #{$value};
+  // }
+
+  // @each $color, $value in $theme-colors {
+  //   --#{$variable-prefix}#{$color}: #{$value};
+  // }
+
+  // @each $color, $value in $theme-colors-rgb {
+  //   --#{$variable-prefix}#{$color}-rgb: #{$value};
+  // }
+
+  // --#{$variable-prefix}white-rgb: #{to-rgb($white)};
+  // --#{$variable-prefix}black-rgb: #{to-rgb($black)};
+  // --#{$variable-prefix}body-color-rgb: #{to-rgb($body-color)};
+  // --#{$variable-prefix}body-bg-rgb: #{to-rgb($body-bg)};
+
+  // Fonts
+  // --#{$variable-prefix}font-monospace: #{inspect($font-family-monospace)};
+  --#{$variable-prefix}gradient: #{$gradient};
+
+  // Root and body
+  // @if $font-size-root != null {
+  //   --#{$variable-prefix}root-font-size: #{$font-size-root};
+  // }
+  --#{$variable-prefix}body-font-size: #{$font-size-base};
+  --#{$variable-prefix}body-font-weight: #{$font-weight-base};
+  --#{$variable-prefix}body-line-height: #{$line-height-base};
+  --#{$variable-prefix}body-color: #{$body-color};
+  @if $body-text-align != null {
+    --#{$variable-prefix}body-text-align: #{$body-text-align};
+  }
+  --#{$variable-prefix}body-bg: #{$body-bg};
+}
